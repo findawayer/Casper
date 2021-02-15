@@ -3,6 +3,7 @@
 
 :root {
     /* Colours */
+    --accent-color: #3eb0ef;
     --blue: #3eb0ef;
     --green: #a4d037;
     --purple: #ad26b4;
@@ -416,7 +417,7 @@ blockquote cite a {
 }
 
 a {
-    color: color-mod(var(--blue) l(-5%));
+    color: var(--accent-color);
     text-decoration: none;
 }
 
